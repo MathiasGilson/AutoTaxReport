@@ -1,4 +1,4 @@
-name: Sauce Labs Test
+name: Upload Invoice
 
 on:
   workflow_dispatch:
@@ -33,6 +33,6 @@ jobs:
       # with a curl request
       - name: Send notification
         run: |
-          curl -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=Job%20completed%20on%20${{ github.repository }}%20branch%20${{ github.ref }}"
+          curl -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&text=Invoice%20successfully%20uploaded"
 
 
