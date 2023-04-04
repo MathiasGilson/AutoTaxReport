@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "nightwatch ./nightwatch/github.ts --env sauceChrome"
+        "test": "nightwatch ./nightwatch/uploadMonthlyInvoice.ts --env sauceChrome"
     },
     "keywords": [],
     "author": "@MathiasGilson",
