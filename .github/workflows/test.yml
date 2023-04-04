@@ -10,8 +10,8 @@ jobs:
     env:
       SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
       SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
-      LOGIN_GITHUB_PASSWORD: ${{ secrets.LOGIN_GITHUB_PASSWORD }}
-      LOGIN_GITHUB_USERNAME: ${{ secrets.LOGIN_GITHUB_USERNAME }}
+      PORTAL_USERNAME: ${{ secrets.PORTAL_USERNAME }}
+      PORTAL_PASSWORD: ${{ secrets.PORTAL_PASSWORD }}
 
     steps:
       - name: Checkout code
