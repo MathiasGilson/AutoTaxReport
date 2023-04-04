@@ -1,0 +1,28 @@
+
+
+tests_output/
+
+# npm
+node_modules
+
+# vs code settings
+.vscode
+
+# caches
+*.cache
+
+# certs
+*.pem
+certs/
+
+# mac
+.DS_Store
+
+# misc
+.cache
+yarn-error.log
+.firebase
+.well-known/
+*.log
+*.lock
+package-lock.json
