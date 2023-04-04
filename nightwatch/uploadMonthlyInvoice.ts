@@ -10,7 +10,6 @@ export default {
             .click('#password-nif')
             .setValue('#password-nif', [process.env.PORTAL_PASSWORD])
             .click('#sbmtLogin')
-            .waitForElementNotPresent('body', 1000)
             .end();
     }
 }
